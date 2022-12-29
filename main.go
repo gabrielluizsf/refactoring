@@ -1,9 +1,16 @@
 package main
 
 import(
-   "fmt"
+   "github.com/GabrielLuizSF/refactoring/abstractFactory"
+   "github.com/GabrielLuizSF/refactoring/adapters"
 )
 
 func main(){
-   fmt.Println("Design Patterns && Refactoring");
+   print_message("Design Patterns && Refactoring");
+     designPattern(1 ,"Abstract Factory");
+      abstractFactory.Client();
+     designPattern(2 ,"Adapters");
+      adapters.Start();
+  
+
 }
