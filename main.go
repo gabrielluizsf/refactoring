@@ -3,6 +3,7 @@ package main
 import(
    "github.com/GabrielLuizSF/refactoring/abstractFactory"
    "github.com/GabrielLuizSF/refactoring/adapters"
+   "github.com/GabrielLuizSF/refactoring/builder"
 )
 
 func main(){
@@ -11,6 +12,8 @@ func main(){
       abstractFactory.Client();
      designPattern(2 ,"Adapters");
       adapters.Start();
+     designPattern(3, "Builder");
+      builder.MyBuilds();
   
 
 }
