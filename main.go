@@ -4,6 +4,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/abstractFactory"
    "github.com/GabrielLuizSF/refactoring/adapters"
    "github.com/GabrielLuizSF/refactoring/builder"
+   "github.com/GabrielLuizSF/refactoring/bridge"
 )
 
 func main(){
@@ -14,6 +15,8 @@ func main(){
       adapters.Start();
      designPattern(3, "Builder");
       builder.MyBuilds();
+     designPattern(4, "Bridge");
+      bridge.PrintOut();
   
 
 }
