@@ -5,6 +5,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/adapters"
    "github.com/GabrielLuizSF/refactoring/builder"
    "github.com/GabrielLuizSF/refactoring/bridge"
+   "github.com/GabrielLuizSF/refactoring/factoryMethod"
 )
 
 func main(){
@@ -17,6 +18,7 @@ func main(){
       builder.MyBuilds();
      designPattern(4, "Bridge");
       bridge.PrintOut();
-  
-
+     designPattern(5, "Factory Method");
+      factoryMethod.SelectGun("Lightsaber");
+      factoryMethod.SelectGun("AK47");
 }
