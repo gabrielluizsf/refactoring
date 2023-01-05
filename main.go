@@ -6,6 +6,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/builder"
    "github.com/GabrielLuizSF/refactoring/bridge"
    "github.com/GabrielLuizSF/refactoring/factoryMethod"
+   "github.com/GabrielLuizSF/refactoring/composite"
 )
 
 func main(){
@@ -21,4 +22,6 @@ func main(){
      designPattern(5, "Factory Method");
       factoryMethod.SelectGun("Lightsaber");
       factoryMethod.SelectGun("AK47");
+     designPattern(6, "Composite")
+      composite.Search();
 }
