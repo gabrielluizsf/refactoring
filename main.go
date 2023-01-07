@@ -7,6 +7,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/bridge"
    "github.com/GabrielLuizSF/refactoring/factoryMethod"
    "github.com/GabrielLuizSF/refactoring/composite"
+   "github.com/GabrielLuizSF/refactoring/prototype"
 )
 
 func main(){
@@ -22,6 +23,8 @@ func main(){
      designPattern(5, "Factory Method");
       factoryMethod.SelectGun("Lightsaber");
       factoryMethod.SelectGun("AK47");
-     designPattern(6, "Composite")
+     designPattern(6, "Composite");
       composite.Search();
+     designPattern(7,"Prototype");
+      prototype.CloneFileANDFolder();
 }
