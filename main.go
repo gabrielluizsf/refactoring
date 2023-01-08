@@ -9,6 +9,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/composite"
    "github.com/GabrielLuizSF/refactoring/prototype"
    "github.com/GabrielLuizSF/refactoring/decorator"
+   "github.com/GabrielLuizSF/refactoring/singleton"
 )
 
 func main(){
@@ -30,5 +31,6 @@ func main(){
        prototype.CloneFileANDFolder();
       designPattern(8, "Decorator");
        decorator.SelectPizza();
-        
+      designPattern(9, "Singleton");
+        singleton.CreateInstance(50);        
 }
