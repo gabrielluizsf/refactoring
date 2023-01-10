@@ -10,6 +10,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/prototype"
    "github.com/GabrielLuizSF/refactoring/decorator"
    "github.com/GabrielLuizSF/refactoring/singleton"
+   "github.com/GabrielLuizSF/refactoring/facade"
 )
 
 func main(){
@@ -33,4 +34,6 @@ func main(){
        decorator.SelectPizza();
       designPattern(9, "Singleton");
         singleton.CreateInstance(50);        
+      designPattern(10,"Facade")
+        facade.MyWallet("s82190dghfa3t87821eyewqu89e32724yt2y8e",48718);
 }
