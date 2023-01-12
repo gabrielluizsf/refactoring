@@ -12,6 +12,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/singleton"
    "github.com/GabrielLuizSF/refactoring/facade"
    "github.com/GabrielLuizSF/refactoring/flyweight"
+   "github.com/GabrielLuizSF/refactoring/proxy"
 )
 
 func main(){
@@ -39,4 +40,6 @@ func main(){
         facade.MyWallet("s82190dghfa3t87821eyewqu89e32724yt2y8e",48718);
       designPattern(11,"Flyweight");
         flyweight.StartGame();
+      designPattern(12, "Proxy");
+        proxy.INITServer();
 }
