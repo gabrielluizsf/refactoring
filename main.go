@@ -13,6 +13,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/facade"
    "github.com/GabrielLuizSF/refactoring/flyweight"
    "github.com/GabrielLuizSF/refactoring/proxy"
+  "github.com/GabrielLuizSF/refactoring/chain_of_responsibility"
 )
 
 func main(){
@@ -42,4 +43,6 @@ func main(){
         flyweight.StartGame();
       designPattern(12, "Proxy");
         proxy.INITServer();
+      designPattern(13,"Chain of Responsibility");
+        chain_of_responsibility.HOSPITAL();
 }
