@@ -15,6 +15,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/proxy"
   "github.com/GabrielLuizSF/refactoring/chain_of_responsibility"
   "github.com/GabrielLuizSF/refactoring/command"
+  "github.com/GabrielLuizSF/refactoring/iterator"
 )
 
 func main(){
@@ -48,4 +49,6 @@ func main(){
         chain_of_responsibility.HOSPITAL();
       designPattern(14,"Command");
         command.TVON_OR_TVOFF();
+      designPattern(15,"Iterator");
+        iterator.GetALLUsers();
 }
