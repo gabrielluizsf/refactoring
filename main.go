@@ -17,6 +17,7 @@ import(
   "github.com/GabrielLuizSF/refactoring/command"
   "github.com/GabrielLuizSF/refactoring/iterator"
   "github.com/GabrielLuizSF/refactoring/mediator"
+  "github.com/GabrielLuizSF/refactoring/memento"
 )
 
 func main(){
@@ -54,4 +55,6 @@ func main(){
         iterator.GetALLUsers();
       designPattern(16,"Mediator");
         mediator.TrainStation();
+      designPattern(17,"Memento");
+        memento.GetAllStatesAndRestoreStates();
 }
