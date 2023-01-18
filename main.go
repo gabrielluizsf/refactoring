@@ -18,6 +18,7 @@ import(
   "github.com/GabrielLuizSF/refactoring/iterator"
   "github.com/GabrielLuizSF/refactoring/mediator"
   "github.com/GabrielLuizSF/refactoring/memento"
+  "github.com/GabrielLuizSF/refactoring/observer"
 )
 
 func main(){
@@ -57,4 +58,7 @@ func main(){
         mediator.TrainStation();
       designPattern(17,"Memento");
         memento.GetAllStatesAndRestoreStates();
+      designPattern(18,"Observer");
+        observer.SendProductEmails("Nike Shirt");
+        observer.SendProductEmails("AdidasShirt");
 }
