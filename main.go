@@ -14,6 +14,7 @@ import(
    "github.com/GabrielLuizSF/refactoring/flyweight"
    "github.com/GabrielLuizSF/refactoring/proxy"
   "github.com/GabrielLuizSF/refactoring/chain_of_responsibility"
+  "github.com/GabrielLuizSF/refactoring/command"
 )
 
 func main(){
@@ -45,4 +46,6 @@ func main(){
         proxy.INITServer();
       designPattern(13,"Chain of Responsibility");
         chain_of_responsibility.HOSPITAL();
+      designPattern(14,"Command");
+        command.TVON_OR_TVOFF();
 }
