@@ -16,6 +16,7 @@ import(
   "github.com/GabrielLuizSF/refactoring/chain_of_responsibility"
   "github.com/GabrielLuizSF/refactoring/command"
   "github.com/GabrielLuizSF/refactoring/iterator"
+  "github.com/GabrielLuizSF/refactoring/mediator"
 )
 
 func main(){
@@ -51,4 +52,6 @@ func main(){
         command.TVON_OR_TVOFF();
       designPattern(15,"Iterator");
         iterator.GetALLUsers();
+      designPattern(16,"Mediator");
+        mediator.TrainStation();
 }
